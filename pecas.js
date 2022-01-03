@@ -1,13 +1,13 @@
 let pesoPeca = 50
 
-//pesoPeca = Camel Case
-//peso_Peca = Snake Case
-//PesoPeca = Pascal Case
+//pesoPeca  =  Camel Case
+//peso_Peca =  Snake Case
+//PesoPeca  =  Pascal Case
 
 if(pesoPeca > 100){
-    console.log("Peso maoir que 100g, logo, podemos cadastrar a peça!!!")
+    console.log("Peso maior que 100g, cadastro autorizado")
 }else{
-    console.log("Peso insuficiente, não é possível cadastrar.")
+    console.log("Peso menor que 100g, cadastro não autorizado")
 }
 
 let numeroPecas = 8
